@@ -1,5 +1,11 @@
 {
   "resources": [
+    {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":1,},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":15,},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
+    {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
+    {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},"order":0,},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
