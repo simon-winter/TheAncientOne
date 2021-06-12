@@ -1,4 +1,5 @@
-triggerRadius = 1
+event_inherited()
 
-// don't edit
-activated = false
+triggeredBy = o_giant
+
+objId = id

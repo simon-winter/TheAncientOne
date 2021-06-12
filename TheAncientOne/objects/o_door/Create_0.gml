@@ -1,3 +1,6 @@
+event_inherited()
+
+triggered = false
+
 // don't edit
-isOpen = false
 image_speed = 0;

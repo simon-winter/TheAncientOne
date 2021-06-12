@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_door",
-    "path": "sprites/spr_door/spr_door.yy",
+    "name": "spr_lever",
+    "path": "sprites/spr_lever/spr_lever.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "o_notWalkable",
-    "path": "objects/o_notWalkable/o_notWalkable.yy",
+    "name": "o_interactable",
+    "path": "objects/o_interactable/o_interactable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,17 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "triggerables",
-    "path": "folders/Objects/triggerables.yy",
+    "name": "interactables",
+    "path": "folders/Objects/interactables.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_door",
+  "name": "o_lever",
   "tags": [],
   "resourceType": "GMObject",
 }
