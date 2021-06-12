@@ -40,7 +40,6 @@
     {"id":{"name":"o_destroy_1","path":"objects/o_destroy_1/o_destroy_1.yy",},"order":2,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":1,},
     {"id":{"name":"ease_out_quart","path":"scripts/ease_out_quart/ease_out_quart.yy",},"order":28,},
-    {"id":{"name":"spr_menu_button_1","path":"sprites/spr_menu_button_1/spr_menu_button_1.yy",},"order":9,},
     {"id":{"name":"cs_wait","path":"scripts/cs_wait/cs_wait.yy",},"order":2,},
     {"id":{"name":"ease_in_sine","path":"scripts/ease_in_sine/ease_in_sine.yy",},"order":9,},
     {"id":{"name":"ease_in_back","path":"scripts/ease_in_back/ease_in_back.yy",},"order":0,},
@@ -92,6 +91,8 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
