@@ -1,13 +1,15 @@
 hsp = 0;
 vsp = 0;
-walksp = 4;
-lock_dial = false;
+walksp = 3;
+
+sendBack = false;
+pullInitDist = 0;
 
 // set as inactive on start
 lock = true;
 
 // pulling
-minDistance = 0.001;
-pullSpeed = 5;
-sendBack = false;
+reachedDistance = 5;
+pullMaxSpeed = 10;
+
 partner = o_giant;

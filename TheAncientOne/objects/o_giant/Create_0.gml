@@ -5,9 +5,3 @@ lock = false;
 
 // set as active on start
 lock_dial = false;
-
-// pulling
-minDistance = 0.001;
-pullSpeed = 5;
-sendBack = false;
-partner = o_gnome;
