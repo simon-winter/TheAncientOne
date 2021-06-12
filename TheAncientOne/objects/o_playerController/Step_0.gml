@@ -7,30 +7,11 @@ if (!lock){
 	
 	inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
 	inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
-	
-	if(inputMagnitude){		
-		hsp += lengthdir_x(inputMagnitude * acceleration, inputDirection);
-		vsp += lengthdir_y(inputMagnitude * acceleration, inputDirection);	
-	}else{
-		hsp *= (1-dragFactor)
-		vsp *= (1-dragFactor)
-	}
-	
-	var crtSpeed = sqrt(sqr(hsp) + sqr(vsp))
-	
-	if(crtSpeed > maxWalkSpeed){
-		var factor = maxWalkSpeed / crtSpeed
-		hsp *= factor
-		vsp *= factor
-	}
-	
-	
-	show_debug_message(crtSpeed)
-	
-	
+}else{
+	inputMagnitude = 0
 }
-
-scr_collision();
+	
+addMovement(inputDirection, inputMagnitude)
 
 #endregion
 

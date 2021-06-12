@@ -1,3 +1,13 @@
 /// @description SpawnGnome
+if(lock){return}
+lock = true;
 
-event_user(0)
+var gnome = instance_create_layer(x,y,"Instances", o_gnome)
+with(gnome){	
+	
+	addMovement(other.lastMovedDirection, 1)	
+	o_camera.target = gnome
+	lock = false;
+}
+
+
