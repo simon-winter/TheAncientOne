@@ -11,6 +11,7 @@
     {"id":{"name":"o_notWalkable","path":"objects/o_notWalkable/o_notWalkable.yy",},"order":0,},
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"order":5,},
     {"id":{"name":"ease_out_quint","path":"scripts/ease_out_quint/ease_out_quint.yy",},"order":29,},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":1,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":3,},
     {"id":{"name":"Easing_and_Tweening","path":"extensions/Easing_and_Tweening/Easing_and_Tweening.yy",},"order":0,},
     {"id":{"name":"o_gnome","path":"objects/o_gnome/o_gnome.yy",},"order":1,},
@@ -22,6 +23,7 @@
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":4,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":1,},
     {"id":{"name":"ease_out_quart","path":"scripts/ease_out_quart/ease_out_quart.yy",},"order":28,},
+    {"id":{"name":"spr_menu_button_1","path":"sprites/spr_menu_button_1/spr_menu_button_1.yy",},"order":9,},
     {"id":{"name":"ease_in_sine","path":"scripts/ease_in_sine/ease_in_sine.yy",},"order":9,},
     {"id":{"name":"ease_in_back","path":"scripts/ease_in_back/ease_in_back.yy",},"order":0,},
     {"id":{"name":"o_door","path":"objects/o_door/o_door.yy",},"order":3,},
@@ -30,6 +32,7 @@
     {"id":{"name":"ease_inout_circ","path":"scripts/ease_inout_circ/ease_inout_circ.yy",},"order":12,},
     {"id":{"name":"ease_linear","path":"scripts/ease_linear/ease_linear.yy",},"order":20,},
     {"id":{"name":"ease_in_quint","path":"scripts/ease_in_quint/ease_in_quint.yy",},"order":8,},
+    {"id":{"name":"o_menu_button","path":"objects/o_menu_button/o_menu_button.yy",},"order":11,},
     {"id":{"name":"ease_inout_quint","path":"scripts/ease_inout_quint/ease_inout_quint.yy",},"order":18,},
     {"id":{"name":"ease_in_quart","path":"scripts/ease_in_quart/ease_in_quart.yy",},"order":7,},
     {"id":{"name":"ease_in_elastic","path":"scripts/ease_in_elastic/ease_in_elastic.yy",},"order":4,},
@@ -68,6 +71,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
