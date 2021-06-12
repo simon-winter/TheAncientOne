@@ -4,8 +4,8 @@ draw_self();
 //draw_set_font();
 draw_set_halign(fa_middle); 
 draw_set_valign(fa_middle);
-draw_text(46,96,"START");
-draw_text(46,144,"EXIT");
+draw_text(88,128,"START");
+draw_text(88,216,"EXIT");
 
-if (select == 0) draw_sprite(spr_menu_buttonS, 0, 46, 96);
-else draw_sprite(spr_menu_buttonS, 0, 46, 144);
+if (select == 0) draw_sprite(spr_menu_buttonS, 0, 88, 128);
+else draw_sprite(spr_menu_buttonS, 0, 88, 216);
