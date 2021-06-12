@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "sp_gnome",
+    "path": "sprites/sp_gnome/sp_gnome.yy",
   },
   "solid": false,
   "visible": true,
