@@ -21,7 +21,7 @@ switch (triggerType){
 				break;
 			}
 		}		
-		break;
+		break;		
 }
 
 

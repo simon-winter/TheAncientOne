@@ -4,26 +4,33 @@ if (!lock){
     keyRight = keyboard_check(vk_right) or keyboard_check(ord("D"));
     keyUp = keyboard_check(vk_up) or keyboard_check(ord("W"));
     keyDown = keyboard_check(vk_down) or keyboard_check(ord("S"));
-    keyAction = keyboard_check_pressed(vk_enter);
-    keyVision = keyboard_check(vk_shift);
+	
+	inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
+	inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
+	
+	if(inputMagnitude){		
+		hsp += lengthdir_x(inputMagnitude * acceleration, inputDirection);
+		vsp += lengthdir_y(inputMagnitude * acceleration, inputDirection);	
+	}else{
+		hsp *= (1-dragFactor)
+		vsp *= (1-dragFactor)
+	}
+	
+	var crtSpeed = sqrt(sqr(hsp) + sqr(vsp))
+	
+	if(crtSpeed > maxWalkSpeed){
+		var factor = maxWalkSpeed / crtSpeed
+		hsp *= factor
+		vsp *= factor
+	}
+	
+	
+	show_debug_message(crtSpeed)
+	
+	
 }
-else {
-    keyLeft = 0;
-    keyRight = 0;
-    keyUp = 0;
-    keyDown = 0;
-    keyAction = 0;
-    keyVision = 0;
-}
-
-inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
-inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
-
-//Movement
-hsp = lengthdir_x(inputMagnitude * walksp, inputDirection);
-vsp = lengthdir_y(inputMagnitude * walksp, inputDirection);
 
 scr_collision();
-#endregion
 
+#endregion
 

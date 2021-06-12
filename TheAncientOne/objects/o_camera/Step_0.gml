@@ -1,6 +1,3 @@
-if(target == noone){
-	target = o_gnome.lock ? o_giant : o_gnome;
-}
 
 // distance clamped to positive values
 var dist = clamp(point_distance(x, y, target.x, target.y) - deadZoneRadius, 0, slowingCameraRadius)

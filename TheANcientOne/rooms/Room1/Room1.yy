@@ -14,17 +14,16 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_gnome","path":"objects/o_gnome/o_gnome.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":96.0,"resourceVersion":"1.0","name":"inst_7B294135","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":64.0,"resourceVersion":"1.0","name":"inst_6B2CAFE3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":128.0,"resourceVersion":"1.0","name":"inst_6B2CAFE3","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_door","path":"objects/o_door/o_door.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":288.0,"resourceVersion":"1.0","name":"inst_46BC2776","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"targetToTrigger","path":"objects/o_multiTrigger/o_multiTrigger.yy",},"objectId":{"name":"o_multiTrigger","path":"objects/o_multiTrigger/o_multiTrigger.yy",},"value":"inst_46BC2776","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"o_multiTrigger","path":"objects/o_multiTrigger/o_multiTrigger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":320.0,"resourceVersion":"1.0","name":"inst_25047D51","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"targetToTrigger","path":"objects/o_interactable/o_interactable.yy",},"objectId":{"name":"o_interactable","path":"objects/o_interactable/o_interactable.yy",},"value":"inst_25047D51","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"myVar","path":"objects/o_lever/o_lever.yy",},"objectId":{"name":"o_lever","path":"objects/o_lever/o_lever.yy",},"value":"inst_25047D51","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"o_lever","path":"objects/o_lever/o_lever.yy",},"objectId":{"name":"o_lever","path":"objects/o_lever/o_lever.yy",},"value":"inst_25047D51","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"o_interactable","path":"objects/o_interactable/o_interactable.yy",},"objectId":{"name":"o_interactable","path":"objects/o_interactable/o_interactable.yy",},"value":"inst_25047D51","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-            {"propertyId":{"name":"myVar","path":"objects/o_lever/o_lever.yy",},"objectId":{"name":"o_lever","path":"objects/o_lever/o_lever.yy",},"value":"inst_25047D51","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"o_lever","path":"objects/o_lever/o_lever.yy",},"objectId":{"name":"o_lever","path":"objects/o_lever/o_lever.yy",},"value":"inst_25047D51","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"o_lever","path":"objects/o_lever/o_lever.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":160.0,"resourceVersion":"1.0","name":"inst_4BFBBC3A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"o_button","path":"objects/o_button/o_button.yy",},"objectId":{"name":"o_button","path":"objects/o_button/o_button.yy",},"value":"inst_32BE86A3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -127,7 +126,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_345A04C1","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7B294135","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6B2CAFE3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_15527135","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_64611C65","path":"rooms/Room1/Room1.yy",},
