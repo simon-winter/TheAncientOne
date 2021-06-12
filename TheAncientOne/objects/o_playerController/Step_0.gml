@@ -26,6 +26,4 @@ vsp = lengthdir_y(inputMagnitude * walksp, inputDirection);
 scr_collision();
 #endregion
 
-#region //camera
 
-#endregion

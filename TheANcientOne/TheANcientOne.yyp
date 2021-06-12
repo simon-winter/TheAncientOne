@@ -7,6 +7,7 @@
     {"id":{"name":"ease_in_bounce","path":"scripts/ease_in_bounce/ease_in_bounce.yy",},"order":1,},
     {"id":{"name":"ease_in_circ","path":"scripts/ease_in_circ/ease_in_circ.yy",},"order":2,},
     {"id":{"name":"ease_inout_quart","path":"scripts/ease_inout_quart/ease_inout_quart.yy",},"order":17,},
+    {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},"order":5,},
     {"id":{"name":"ease_out_quint","path":"scripts/ease_out_quint/ease_out_quint.yy",},"order":29,},
     {"id":{"name":"Easing_and_Tweening","path":"extensions/Easing_and_Tweening/Easing_and_Tweening.yy",},"order":0,},
     {"id":{"name":"o_gnome","path":"objects/o_gnome/o_gnome.yy",},"order":4,},
