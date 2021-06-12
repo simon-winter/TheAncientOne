@@ -10,26 +10,26 @@ if (portrait_index >= 0){
 
 //if (name >= 0){
 	//Draw Namebox
-draw_sprite(namebox,0,namebox_x,namebox_y);
+//draw_sprite(namebox,0,namebox_x,namebox_y);
 //}
 //----TEXT
 draw_set_halign(fa_left); draw_set_valign(fa_top);
-//draw_set_font(f_montBold20);
+draw_set_font(Font1);
 draw_set_colour($5b8aff);
 
 //Draw Name
-var c = name_text_col;
+/*var c = name_text_col;
 draw_set_halign(fa_left); draw_set_valign(fa_top);
 draw_text_color(name_text_x,name_text_y,name,c,c,c,c,1);
-draw_set_halign(fa_left); draw_set_valign(fa_top);
+draw_set_halign(fa_left); draw_set_valign(fa_top);*/
 
-//draw_set_font(f_montReg5);
-draw_set_colour($929292);
+draw_set_font(Font1);
+draw_set_colour(c_black);
 
 if (!choice_dialogue){
 	//Draw Text
 	if (counter < str_len) {
-		counter++;
+		counter += 0.3;
 	}
 	var substr = string_copy(text_wrapped,1,counter);
 
