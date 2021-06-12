@@ -63,6 +63,7 @@
     {"id":{"name":"spr_pas","path":"sprites/spr_pas/spr_pas.yy",},"order":5,},
     {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},"order":1,},
     {"id":{"name":"sp_gnome","path":"sprites/sp_gnome/sp_gnome.yy",},"order":0,},
+    {"id":{"name":"d_text2","path":"objects/d_text2/d_text2.yy",},"order":8,},
     {"id":{"name":"spr_giant","path":"sprites/spr_giant/spr_giant.yy",},"order":2,},
     {"id":{"name":"spr_namebox","path":"sprites/spr_namebox/spr_namebox.yy",},"order":2,},
     {"id":{"name":"o_water","path":"objects/o_water/o_water.yy",},"order":2,},

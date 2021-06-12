@@ -32,7 +32,7 @@ text_x = 95;
 text_y = 180;
 name_text_x = 95;
 name_text_y = 150;
-text_max_width = 330;
+text_max_width = 320;
 
 text_col = c_black;
 name_text_col = c_black;
