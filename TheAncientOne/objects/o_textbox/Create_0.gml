@@ -30,13 +30,13 @@ namebox_y = 150;
 //y_buffer = 8;
 text_x = 95;
 text_y = 180;
-name_text_x = 90;
+name_text_x = 95;
 name_text_y = 150;
-text_max_width = 300;
+text_max_width = 330;
 
-text_col = $929292;
-name_text_col = $ffffff;
-text_height = 60;
+text_col = c_black;
+name_text_col = c_black;
+text_height = 20;
 
 choice = 0;
 choice_col = c_black;

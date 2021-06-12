@@ -1,7 +1,7 @@
 portrait_index = -1;
 name = "System";
 text = [
-	"I'm a giant."
+	"Get your rest Peran, there's quite the walk ahead of us."
 ];
 speakers = [id];
 next_line = [0];
