@@ -9,7 +9,7 @@ function scr_collision() {
     }
     x = x + hsp;
 
-    if (place_meeting(x,y+vsp,o_notWalkable)){
+    if (place_meeting(x,y+vsp,o_notWalkable)){		
         while(!place_meeting(x,y+sign(vsp),o_notWalkable)){
             y = y + sign(vsp);
         }
