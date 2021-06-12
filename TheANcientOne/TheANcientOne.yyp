@@ -18,6 +18,7 @@
     {"id":{"name":"ease_out_elastic","path":"scripts/ease_out_elastic/ease_out_elastic.yy",},"order":25,},
     {"id":{"name":"ease_inout_elastic","path":"scripts/ease_inout_elastic/ease_inout_elastic.yy",},"order":14,},
     {"id":{"name":"ease_inout_sine","path":"scripts/ease_inout_sine/ease_inout_sine.yy",},"order":19,},
+    {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},"order":7,},
     {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":4,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":1,},
     {"id":{"name":"ease_out_quart","path":"scripts/ease_out_quart/ease_out_quart.yy",},"order":28,},
@@ -34,6 +35,7 @@
     {"id":{"name":"ease_in_elastic","path":"scripts/ease_in_elastic/ease_in_elastic.yy",},"order":4,},
     {"id":{"name":"ease_inout_cubic","path":"scripts/ease_inout_cubic/ease_inout_cubic.yy",},"order":13,},
     {"id":{"name":"o_playerController","path":"objects/o_playerController/o_playerController.yy",},"order":2,},
+    {"id":{"name":"spr_menu_bg","path":"sprites/spr_menu_bg/spr_menu_bg.yy",},"order":6,},
     {"id":{"name":"ease_out_sine","path":"scripts/ease_out_sine/ease_out_sine.yy",},"order":30,},
     {"id":{"name":"sp_gnome","path":"sprites/sp_gnome/sp_gnome.yy",},"order":0,},
     {"id":{"name":"spr_giant","path":"sprites/spr_giant/spr_giant.yy",},"order":2,},
@@ -49,6 +51,7 @@
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":5,},
     {"id":{"name":"ease_in_expo","path":"scripts/ease_in_expo/ease_in_expo.yy",},"order":5,},
     {"id":{"name":"ease_out_back","path":"scripts/ease_out_back/ease_out_back.yy",},"order":21,},
+    {"id":{"name":"spr_menu_buttonS","path":"sprites/spr_menu_buttonS/spr_menu_buttonS.yy",},"order":8,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
